@@ -1,8 +1,8 @@
 # Warning Printf Tester
 
-A simple and rigorous tester for _ft_printf_ project.
+A simple and rigorous tester for the _ft_printf_ project.
 
-The objective of this tester is compare your _ft_printf_ with the system _printf_ even if has an warning!
+The objective of this tester is to compare your _ft_printf_ with the system _printf_ even if it has warnings!
 
 ## How to use?
 
@@ -12,7 +12,7 @@ Clone this repository inside your _ft_printf_ project directory.
 git clone https://github.com/rgrmra/warning_printf_tester.git warning_printf_tester
 ```
 
-Inside tester directory use the following commands:
+Inside the tester directory use the following commands:
 
 **To compile the mandatory test.**
 ```shell
@@ -34,10 +34,10 @@ make b
 make be
 ```
 
-## Execute only a flag
-**After compiling the bonus test, it's possible to execunte only the flag you want.**
+## Execute specific flags
+**After compiling the bonus test, it's possible to execute using only the flags you want.**
 
-It's is possible to call for flags _c_, _s_, _d_, _i_, _u_, _p_, _x_, _X_ and _%_ as following:
+It is possible to call with the flags _c_, _s_, _d_, _i_, _u_, _p_, _x_, _X_ and _%_ as following:
 
 ```shell
 ./test c
@@ -51,7 +51,7 @@ It's is possible to call for flags _c_, _s_, _d_, _i_, _u_, _p_, _x_, _X_ and _%
 ./test %
 ```
 
-It's possible to run the test again with the flags _m_ and _b_ as following:
+It's possible to rerun the test with the flags _m_ and _b_ as follows:
 
 ```shell
 ./test m
@@ -60,4 +60,4 @@ It's possible to run the test again with the flags _m_ and _b_ as following:
 
 ## Observation
 
-> This test executes a lot of tests that could result in an warning. If you make a test in your own main and return a warning, you could ignore this configuration.
+> This test executes a lot of tests that could result in a warning. If you make a test in your own main and return a warning, you could ignore this configuration.
